@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="SM Soad - Developer, Creator and Innovator." />
+  <meta name="google-site-verification" content="8RuJkMsMIpGpe1zHFMxY888FvBTNvSFCUhftqn2ksFE" />
+  <title>SM Soad | Official Website</title>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Courier New', Courier, monospace;
+      background-color: #000;
+      color: #00ff88;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      text-align: center;
+      background-image: linear-gradient(180deg, rgba(0, 255, 136, 0.05) 1px, transparent 1px),
+                        linear-gradient(90deg, rgba(0, 255, 136, 0.05) 1px, transparent 1px);
+      background-size: 20px 20px;
+      animation: bgScroll 20s linear infinite;
+    }
+
+    @keyframes bgScroll {
+      from {
+        background-position: 0 0;
+      }
+      to {
+        background-position: 100% 100%;
+      }
+    }
+
+    .container {
+      max-width: 500px;
+      padding: 20px;
+      border: 2px solid #00ff88;
+      border-radius: 12px;
+      box-shadow: 0 0 20px #00ff88;
+      background-color: rgba(0, 0, 0, 0.8);
+    }
+
+    .profile-pic {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 3px dashed #00ff88;
+      margin-bottom: 20px;
+      box-shadow: 0 0 10px #00ff88;
+    }
+
+    h1 {
+      margin: 0;
+      font-size: 2em;
+      text-transform: uppercase;
+    }
+
+    .typing {
+      display: inline-block;
+      border-right: 2px solid #00ff88;
+      white-space: nowrap;
+      overflow: hidden;
+      width: 0;
+      animation: typing 3s steps(20, end) forwards, blink 0.7s infinite;
+    }
+
+    @keyframes typing {
+      from { width: 0 }
+      to { width: 11ch }
+    }
+
+    @keyframes blink {
+      0%, 100% { border-color: transparent }
+      50% { border-color: #00ff88 }
+    }
+
+    p {
+      margin: 10px 0;
+      line-height: 1.5;
+    }
+
+    .social-links a {
+      color: #00ff88;
+      text-decoration: none;
+      margin: 0 10px;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+
+    .social-links a:hover {
+      color: #fff;
+      text-shadow: 0 0 5px #00ff88;
+    }
+  </style>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "SM Soad",
+    "image": "IMG_20240620_151823.jpg",
+    "jobTitle": "Developer & Creator",
+    "url": "https://sm-soad.vercel.app",
+    "sameAs": [
+      "https://www.facebook.com/toxic71soad",
+      "https://www.instagram.com/smsoad09"
+    ]
+  }
+  </script>
+
+</head>
+<body>
+  <div class="container">
+    <img src="IMG_20240620_151823.jpg" alt="SM Soad" class="profile-pic" />
+    <h1><span class="typing">SM Soad</span></h1>
+    <p>Developer | Creator | Innovator</p>
+    <p>আমি একজন ডেভেলপার এবং প্রযুক্তি নিয়ে কাজ করতে ভালোবাসি।</p>
+    <div class="social-links">
+      <a href="https://facebook.com/toxic71soad" target="_blank" rel="noopener noreferrer">Facebook</a>
+      <a href="https://instagram.com/smsoad09" target="_blank" rel="noopener noreferrer">Instagram</a>
+      <a href="mailto:smsoad85@gmail.com">Email</a>
+    </div>
+  </div>
+</body>
+</html>
